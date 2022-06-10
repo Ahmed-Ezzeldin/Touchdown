@@ -22,12 +22,19 @@ struct ContentView: View {
                         .flatMap { ($0 as? UIWindowScene)?.windows ?? [] }
                         .first { $0.isKeyWindow }?.safeAreaInsets.top)
                     .background(.white)
-                    .shadow(color: Color.black.opacity(0.15) , radius: 5 , x: 0, y: 5 )
+                    .shadow(color: Color.black.opacity(0.1) , radius: 5 , x: 0, y: 5 )
                 
-                Spacer()
-                
-                FooterView()
-                    .padding(.horizontal)
+                ScrollView(.vertical , showsIndicators: false, content: {
+                    VStack(spacing: 0) {
+                        FeaturedTabView()
+                            .frame(height: UIScreen.main.bounds.width / 1.5)
+                            .padding(.vertical, 20)
+                        
+                        
+                        FooterView()
+                            .padding(.horizontal)
+                    }
+                })
             }
             .background(colorBackground.ignoresSafeArea(.all ,edges: .all))
         }
