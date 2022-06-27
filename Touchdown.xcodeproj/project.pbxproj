@@ -33,6 +33,10 @@
 		BE9066D12854E9C900C9FB77 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9066D02854E9C900C9FB77 /* CategoryItemView.swift */; };
 		BE9066D32854EC5200C9FB77 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9066D22854EC5200C9FB77 /* CategoryGridView.swift */; };
 		BE9066D52854F58400C9FB77 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9066D42854F58400C9FB77 /* SectionView.swift */; };
+		BEE48B2B286A2A9500A7B72A /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE48B2A286A2A9500A7B72A /* ProductDetailView.swift */; };
+		BEE48B2D286A2CEC00A7B72A /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE48B2C286A2CEC00A7B72A /* NavigationBarDetailView.swift */; };
+		BEE48B2F286A2F0700A7B72A /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE48B2E286A2F0700A7B72A /* HeaderDetailView.swift */; };
+		BEE48B31286A30A400A7B72A /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE48B30286A30A400A7B72A /* TopPartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +68,10 @@
 		BE9066D02854E9C900C9FB77 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 		BE9066D22854EC5200C9FB77 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
 		BE9066D42854F58400C9FB77 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		BEE48B2A286A2A9500A7B72A /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		BEE48B2C286A2CEC00A7B72A /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		BEE48B2E286A2F0700A7B72A /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		BEE48B30286A30A400A7B72A /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +167,9 @@
 		BE0207B12853814E00F45793 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				BEE48B2C286A2CEC00A7B72A /* NavigationBarDetailView.swift */,
+				BEE48B2E286A2F0700A7B72A /* HeaderDetailView.swift */,
+				BEE48B30286A30A400A7B72A /* TopPartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -168,6 +179,7 @@
 			children = (
 				BE020797285376E200F45793 /* TouchdownApp.swift */,
 				BE020799285376E200F45793 /* ContentView.swift */,
+				BEE48B2A286A2A9500A7B72A /* ProductDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -274,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE0207C1285397F300F45793 /* CodableBundleExtension.swift in Sources */,
+				BEE48B2F286A2F0700A7B72A /* HeaderDetailView.swift in Sources */,
+				BEE48B31286A30A400A7B72A /* TopPartDetailView.swift in Sources */,
 				BE02079A285376E200F45793 /* ContentView.swift in Sources */,
 				BE0207BD285390E400F45793 /* LogoView.swift in Sources */,
 				BE0207B92853836B00F45793 /* FooterView.swift in Sources */,
@@ -281,6 +295,8 @@
 				BE5F7BF02857B4D700C7C971 /* ProductItemView.swift in Sources */,
 				BE5F7BF62857BB8A00C7C971 /* BrandGridView.swift in Sources */,
 				BE020798285376E200F45793 /* TouchdownApp.swift in Sources */,
+				BEE48B2B286A2A9500A7B72A /* ProductDetailView.swift in Sources */,
+				BEE48B2D286A2CEC00A7B72A /* NavigationBarDetailView.swift in Sources */,
 				BE0207B7285381F900F45793 /* Constant.swift in Sources */,
 				BE9066D32854EC5200C9FB77 /* CategoryGridView.swift in Sources */,
 				BE9066CF2854E86B00C9FB77 /* CategoryModel.swift in Sources */,
